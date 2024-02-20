@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split Columns</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+			background-image: url("{{ url_for('static', filename='back.jpeg') }}");
+            background-size: cover;
+            background-repeat: repeat;
+            background-attachment: fixed;
+            background-position: center;
+            font-family: Lato;
+			background-color: #f4f4f4;
+        }
+
+        #header {
+            text-align: center;
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+        }
+
+        #container {
+            width: 90%;
+            margin-top: 1850px; /* Adjust the margin to create space below the header */
+            max-width: 1200px; /* Set a maximum width if needed */
+            background-color: rgba(255, 255, 255, 0.9); /* Background color with transparency */
+            border: 4px solid #333;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative; /* Position container relative for absolute positioning */
+        }
+
+        .column-item {
+            border-bottom: 2px solid #333;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 32px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        .csv-link {
+            position: absolute;
+            top: 120px;
+            right: 20px;
+        }
+
+        .csv-link1 {
+            position: absolute;
+            right: 20px;
+            bottom: 5px; /* Adjust as needed to properly position the link */
+        }
+
+        .column-item {
+            position: relative; /* Set the parent div to relative position */
+        }
+
+        /* Additional styles to align the citation link */
+        .citation-heading {
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+		
+		
+
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>HOPKINSON REFERENCE BUSTER
+		</h1>
+    </div>
+
+    <div id="container">
+        <div class="column-item">
+            <h1>Reference Report</h1>
+            
+            <p>Reference Results:</p>
+            <a href="{{ url_for('downloadref_csv_file') }}" class="csv-link">View Reference Results in CSV</a>
+            
+            <ul>
+                {% for key, value in results.items() %}
+                    <li>{{ key }}: {{ value }}</li>
+                {% endfor %}
+            </ul>
+            
+            <!-- Properly wrap the citation section -->
+            <div class="citation-heading">
+                <p>Citation Results</p>
+                <a href="{{ url_for('downloadcite_csv_file') }}" class="csv-link1">View Citation Results in CSV</a>
+            </div>
+
+            <ul>
+                {% for key, value in citeresults.items() %}
+                    <li>{{ key }}: {{ value }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+Total
+Cited
+Not Cited
+% Cited
+% Not Citedauthor
+year
+Authors
+Parsed Surnames
+16
+4
+12
+25
+75
+['Akbari, M.']['2021']
+1 ['Akbari']
+['Appio, F.P., Frattini, F., Petruzzelli, A.M. and Neirotti, P.']
+['2021']
+4 ['Appio', 'Frattini', 'Petruzzelli', 'N
+['Chanias, S., Myers, M.D. and Hess, T.']
+['2019']
+3 ['Chanias', 'Myers', 'Hess']
+['Chen, J.'] ['2019']
+1 ['Chen']
+['DragiÄ
+
+Harvard Citation 1
+Harvard Citation 2
+Harvard Cite 1
+Harvard Cite 2
+Number of times Cited
+Other citations for Author
+Akbari (2021)
+(Akbari, 2021)
+â
+
+machine learning can analyse previous information  to identify trends and then make smart decisions, which improves procedures everyw
+d with digital transformation strategy     Figure: Major barriers to digital transformation  Source: (Chanias, Myers, and Hess, 2019)  With t
+ion of data analytics, blockchain,  and advanced tracking systems (Chen, Lv, and Song, 2019).']
+ools: Contrary to DragiÄ
+
+hich improves procedures everywhere  (Akbari and Do 2021).']
+as, Myers, and Hess, 2019)  With the wide range of opportunities that digital technologies offer, it has its drawbacks as  well.']
+reamlined through the use of agile methods of  development that are supported by digital tools.']
+nmesser, Galeotti, and Momot, 2023).']
+w technology for sensors and the Internet of Things can be effectively merged  in the manufacturing sector.']
+y of OWL involves enhancing workforce training as an  important aspect, taking knowledge gained from the COVID-19 pandemic.']
+Student Name: Abdul Rafiq Khan  Student ID: W9611873                      Page 2 of 19    Contents  Introduction .................................................
+, and Gudergan (2020), research and development (R&D) methods are able to be  streamlined in a significant manner through the implem
+n platforms is also identified by research.']
+the relieved and confused structure of management (Obrenovic et al.,  2020).']
+
+
+s drawbacks as  well.']
+the COVID-19 pandemic.']
+on ............................................................................................................................ 3  Digital Transformation Strategies for OWL ....................
+ficant manner through the implementation of digital transformation.']
+
+
+n Strategies for OWL .......................................................................... 3  Behaviour tracking in consumer product ...........................................
+
+
+roduct ............................................................................... 3  Streamline research and development .................................................................
+
+
+........................................................................ 6  Technology Implementation Roadmap ..................................................................................
+
+
+...................................................... 7  Conclusion .............................................................................................................................. 7  Part 2: C
+
+
+................................... 7  Part 2: Critical E
+
+
