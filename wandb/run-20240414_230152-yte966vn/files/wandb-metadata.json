@@ -1,0 +1,47 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.2",
+    "heartbeatAt": "2024-04-14T17:31:54.559947",
+    "startedAt": "2024-04-14T17:31:52.500068",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "Untitled1.ipynb",
+    "codePathLocal": "Untitled1.ipynb",
+    "root": "D:\\Downloads\\REFBUST_Review",
+    "host": "Lenovo-IdeaPad-5",
+    "username": "Chinu",
+    "executable": "C:\\Users\\Chinu\\Python310\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1411.0,
+        "min": 0.0,
+        "max": 2419.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1411.0,
+            "min": 0.0,
+            "max": 2419.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 219.72558212280273,
+            "used": 70.5539321899414
+        }
+    },
+    "gpu": "NVIDIA GeForce MX450",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce MX450",
+            "memory_total": 2147483648
+        }
+    ],
+    "memory": {
+        "total": 7.788383483886719
+    }
+}

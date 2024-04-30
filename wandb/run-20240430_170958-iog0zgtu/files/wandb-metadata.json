@@ -1,0 +1,39 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.11.0",
+    "heartbeatAt": "2024-04-30T11:40:30.298489",
+    "startedAt": "2024-04-30T11:39:58.301436",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "transformer.ipynb",
+    "codePathLocal": "transformer.ipynb",
+    "root": "C:\\Users\\RAHUL BARLA\\Downloads\\REFBUST_Review (2)\\REFBUST_Review",
+    "host": "LAPTOP-NP9D6DUS",
+    "username": "RAHUL BARLA",
+    "executable": "C:\\Users\\RAHUL BARLA\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3187.0,
+        "min": 0.0,
+        "max": 3187.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3187.0,
+            "min": 0.0,
+            "max": 3187.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 152.45019149780273,
+            "used": 133.01987838745117
+        }
+    },
+    "memory": {
+        "total": 7.788383483886719
+    }
+}

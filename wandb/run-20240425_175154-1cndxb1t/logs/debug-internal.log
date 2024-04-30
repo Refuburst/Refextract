@@ -1,0 +1,96 @@
+2024-04-25 17:51:54,564 INFO    StreamThr :14868 [internal.py:wandb_internal():86] W&B internal server running at pid: 14868, started at: 2024-04-25 17:51:54.563205
+2024-04-25 17:51:54,566 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: status
+2024-04-25 17:51:54,577 INFO    WriterThread:14868 [datastore.py:open_for_write():87] open: C:\Users\RAHUL BARLA\Downloads\REFBUST_Review (2)\REFBUST_Review\wandb\run-20240425_175154-1cndxb1t\run-1cndxb1t.wandb
+2024-04-25 17:51:54,578 DEBUG   SenderThread:14868 [sender.py:send():379] send: header
+2024-04-25 17:51:54,579 DEBUG   SenderThread:14868 [sender.py:send():379] send: run
+2024-04-25 17:51:54,990 INFO    SenderThread:14868 [dir_watcher.py:__init__():211] watching files in: C:\Users\RAHUL BARLA\Downloads\REFBUST_Review (2)\REFBUST_Review\wandb\run-20240425_175154-1cndxb1t\files
+2024-04-25 17:51:54,990 INFO    SenderThread:14868 [sender.py:_start_run_threads():1124] run started: 1cndxb1t with start time 1714047714.565202
+2024-04-25 17:51:54,990 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: check_version
+2024-04-25 17:51:54,990 DEBUG   SenderThread:14868 [sender.py:send_request():406] send_request: check_version
+2024-04-25 17:51:55,164 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: run_start
+2024-04-25 17:51:56,288 DEBUG   HandlerThread:14868 [system_info.py:__init__():26] System info init
+2024-04-25 17:51:56,288 DEBUG   HandlerThread:14868 [system_info.py:__init__():41] System info init done
+2024-04-25 17:51:56,288 INFO    HandlerThread:14868 [system_monitor.py:start():194] Starting system monitor
+2024-04-25 17:51:56,289 INFO    SystemMonitor:14868 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-25 17:51:56,289 INFO    HandlerThread:14868 [system_monitor.py:probe():214] Collecting system info
+2024-04-25 17:51:56,294 INFO    SystemMonitor:14868 [interfaces.py:start():190] Started cpu monitoring
+2024-04-25 17:51:56,294 INFO    SystemMonitor:14868 [interfaces.py:start():190] Started disk monitoring
+2024-04-25 17:51:56,295 INFO    SystemMonitor:14868 [interfaces.py:start():190] Started gpu monitoring
+2024-04-25 17:51:56,298 INFO    SystemMonitor:14868 [interfaces.py:start():190] Started memory monitoring
+2024-04-25 17:51:56,306 INFO    SystemMonitor:14868 [interfaces.py:start():190] Started network monitoring
+2024-04-25 17:51:56,314 DEBUG   HandlerThread:14868 [system_info.py:probe():150] Probing system
+2024-04-25 17:51:56,314 DEBUG   HandlerThread:14868 [gitlib.py:_init_repo():56] git repository is invalid
+2024-04-25 17:51:56,314 DEBUG   HandlerThread:14868 [system_info.py:probe():198] Probing system done
+2024-04-25 17:51:56,314 DEBUG   HandlerThread:14868 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.11.0', 'heartbeatAt': '2024-04-25T12:21:56.314727', 'startedAt': '2024-04-25T12:21:54.542979', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'transformer.ipynb', 'codePathLocal': 'transformer.ipynb', 'root': 'C:\\Users\\RAHUL BARLA\\Downloads\\REFBUST_Review (2)\\REFBUST_Review', 'host': 'LAPTOP-NP9D6DUS', 'username': 'RAHUL BARLA', 'executable': 'C:\\Users\\RAHUL BARLA\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3187.0, 'min': 0.0, 'max': 3187.0}, 'cpu_freq_per_core': [{'current': 3187.0, 'min': 0.0, 'max': 3187.0}], 'disk': {'/': {'total': 152.45019149780273, 'used': 131.29597091674805}}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 7.788383483886719}}
+2024-04-25 17:51:56,314 INFO    HandlerThread:14868 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-25 17:51:56,314 INFO    HandlerThread:14868 [system_monitor.py:probe():227] Publishing system info
+2024-04-25 17:51:56,323 INFO    HandlerThread:14868 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-25 17:51:56,323 DEBUG   SenderThread:14868 [sender.py:send():379] send: files
+2024-04-25 17:51:56,323 INFO    SenderThread:14868 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-25 17:51:56,567 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-25 17:51:56,567 DEBUG   SenderThread:14868 [sender.py:send_request():406] send_request: python_packages
+2024-04-25 17:51:56,567 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 17:51:56,567 DEBUG   SenderThread:14868 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 17:51:56,567 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 17:51:56,839 DEBUG   SenderThread:14868 [sender.py:send():379] send: telemetry
+2024-04-25 17:51:56,839 DEBUG   SenderThread:14868 [sender.py:send():379] send: config
+2024-04-25 17:51:56,839 DEBUG   SenderThread:14868 [sender.py:send():379] send: metric
+2024-04-25 17:51:56,839 DEBUG   SenderThread:14868 [sender.py:send():379] send: telemetry
+2024-04-25 17:51:56,839 DEBUG   SenderThread:14868 [sender.py:send():379] send: metric
+2024-04-25 17:51:56,839 WARNING SenderThread:14868 [sender.py:send_metric():1341] Seen metric with glob (shouldn't happen)
+2024-04-25 17:51:56,839 DEBUG   SenderThread:14868 [sender.py:send():379] send: telemetry
+2024-04-25 17:51:56,947 INFO    wandb-upload_0:14868 [upload_job.py:push():131] Uploaded file C:\Users\RAHULB~1\AppData\Local\Temp\tmp1cwsavz3wandb\kk1ict2r-wandb-metadata.json
+2024-04-25 17:51:57,005 INFO    Thread-16 :14868 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\RAHUL BARLA\Downloads\REFBUST_Review (2)\REFBUST_Review\wandb\run-20240425_175154-1cndxb1t\files\requirements.txt
+2024-04-25 17:51:57,005 INFO    Thread-16 :14868 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\RAHUL BARLA\Downloads\REFBUST_Review (2)\REFBUST_Review\wandb\run-20240425_175154-1cndxb1t\files\wandb-metadata.json
+2024-04-25 17:51:59,871 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:52:04,954 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:52:10,229 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:52:11,658 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 17:52:11,658 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 17:52:11,658 DEBUG   SenderThread:14868 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 17:52:16,115 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:52:21,180 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:52:26,372 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:52:26,950 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 17:52:27,049 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 17:52:32,194 DEBUG   SenderThread:14868 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 17:52:32,272 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-25 17:52:33,199 INFO    Thread-16 :14868 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\RAHUL BARLA\Downloads\REFBUST_Review (2)\REFBUST_Review\wandb\run-20240425_175154-1cndxb1t\files\config.yaml
+2024-04-25 17:52:37,508 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:52:41,594 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 17:52:41,594 DEBUG   SenderThread:14868 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 17:52:41,656 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 17:52:42,851 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:52:47,968 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:52:53,020 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:52:56,309 DEBUG   SystemMonitor:14868 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-25 17:52:56,338 DEBUG   SenderThread:14868 [sender.py:send():379] send: stats
+2024-04-25 17:52:56,621 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 17:52:56,623 DEBUG   SenderThread:14868 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 17:52:56,673 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 17:52:58,895 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:53:03,961 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:53:09,061 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:53:11,641 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 17:53:11,643 DEBUG   SenderThread:14868 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 17:53:11,686 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 17:53:14,958 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:53:20,002 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:53:31,896 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:53:35,057 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 17:53:35,079 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 17:53:35,116 DEBUG   SenderThread:14868 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 17:53:35,415 DEBUG   SenderThread:14868 [sender.py:send():379] send: stats
+2024-04-25 17:53:37,436 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:53:42,481 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:53:46,921 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 17:53:46,926 DEBUG   SenderThread:14868 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 17:53:48,136 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:53:48,788 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 17:53:53,958 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:53:59,015 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:54:01,923 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 17:54:01,927 DEBUG   SenderThread:14868 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 17:54:03,803 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 17:54:04,246 DEBUG   HandlerThread:14868 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 17:54:05,042 DEBUG   SenderThread:14868 [sender.py:send():379] send: stats

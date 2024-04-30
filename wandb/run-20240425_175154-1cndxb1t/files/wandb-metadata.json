@@ -1,0 +1,47 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.11.0",
+    "heartbeatAt": "2024-04-25T12:21:56.314727",
+    "startedAt": "2024-04-25T12:21:54.542979",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "transformer.ipynb",
+    "codePathLocal": "transformer.ipynb",
+    "root": "C:\\Users\\RAHUL BARLA\\Downloads\\REFBUST_Review (2)\\REFBUST_Review",
+    "host": "LAPTOP-NP9D6DUS",
+    "username": "RAHUL BARLA",
+    "executable": "C:\\Users\\RAHUL BARLA\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3187.0,
+        "min": 0.0,
+        "max": 3187.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3187.0,
+            "min": 0.0,
+            "max": 3187.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 152.45019149780273,
+            "used": 131.29597091674805
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 7.788383483886719
+    }
+}

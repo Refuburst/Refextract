@@ -1,0 +1,46 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.11.0",
+    "heartbeatAt": "2024-04-25T12:08:49.236742",
+    "startedAt": "2024-04-25T12:08:47.504080",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "host": "LAPTOP-NP9D6DUS",
+    "username": "RAHUL BARLA",
+    "executable": "C:\\Users\\RAHUL BARLA\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3187.0,
+        "min": 0.0,
+        "max": 3187.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3187.0,
+            "min": 0.0,
+            "max": 3187.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 152.45019149780273,
+            "used": 134.4951171875
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 7.788383483886719
+    }
+}

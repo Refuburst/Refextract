@@ -1,0 +1,84 @@
+2024-04-25 19:00:17,249 INFO    StreamThr :23336 [internal.py:wandb_internal():86] W&B internal server running at pid: 23336, started at: 2024-04-25 19:00:17.246405
+2024-04-25 19:00:17,250 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: status
+2024-04-25 19:00:17,258 INFO    WriterThread:23336 [datastore.py:open_for_write():87] open: C:\Users\RAHUL BARLA\Downloads\REFBUST_Review (2)\REFBUST_Review\wandb\run-20240425_190017-fwqfcbnw\run-fwqfcbnw.wandb
+2024-04-25 19:00:17,258 DEBUG   SenderThread:23336 [sender.py:send():379] send: header
+2024-04-25 19:00:17,258 DEBUG   SenderThread:23336 [sender.py:send():379] send: run
+2024-04-25 19:00:17,823 INFO    SenderThread:23336 [dir_watcher.py:__init__():211] watching files in: C:\Users\RAHUL BARLA\Downloads\REFBUST_Review (2)\REFBUST_Review\wandb\run-20240425_190017-fwqfcbnw\files
+2024-04-25 19:00:17,823 INFO    SenderThread:23336 [sender.py:_start_run_threads():1124] run started: fwqfcbnw with start time 1714051817.251743
+2024-04-25 19:00:17,844 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: check_version
+2024-04-25 19:00:17,844 DEBUG   SenderThread:23336 [sender.py:send_request():406] send_request: check_version
+2024-04-25 19:00:17,918 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: run_start
+2024-04-25 19:00:19,027 DEBUG   HandlerThread:23336 [system_info.py:__init__():26] System info init
+2024-04-25 19:00:19,027 DEBUG   HandlerThread:23336 [system_info.py:__init__():41] System info init done
+2024-04-25 19:00:19,027 INFO    HandlerThread:23336 [system_monitor.py:start():194] Starting system monitor
+2024-04-25 19:00:19,027 INFO    SystemMonitor:23336 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-25 19:00:19,027 INFO    HandlerThread:23336 [system_monitor.py:probe():214] Collecting system info
+2024-04-25 19:00:19,043 INFO    SystemMonitor:23336 [interfaces.py:start():190] Started cpu monitoring
+2024-04-25 19:00:19,043 INFO    SystemMonitor:23336 [interfaces.py:start():190] Started disk monitoring
+2024-04-25 19:00:19,043 INFO    SystemMonitor:23336 [interfaces.py:start():190] Started gpu monitoring
+2024-04-25 19:00:19,047 INFO    SystemMonitor:23336 [interfaces.py:start():190] Started memory monitoring
+2024-04-25 19:00:19,059 INFO    SystemMonitor:23336 [interfaces.py:start():190] Started network monitoring
+2024-04-25 19:00:19,059 DEBUG   HandlerThread:23336 [system_info.py:probe():150] Probing system
+2024-04-25 19:00:19,074 DEBUG   HandlerThread:23336 [gitlib.py:_init_repo():56] git repository is invalid
+2024-04-25 19:00:19,074 DEBUG   HandlerThread:23336 [system_info.py:probe():198] Probing system done
+2024-04-25 19:00:19,074 DEBUG   HandlerThread:23336 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.11.0', 'heartbeatAt': '2024-04-25T13:30:19.059165', 'startedAt': '2024-04-25T13:30:17.218236', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'transformer.ipynb', 'codePathLocal': 'transformer.ipynb', 'root': 'C:\\Users\\RAHUL BARLA\\Downloads\\REFBUST_Review (2)\\REFBUST_Review', 'host': 'LAPTOP-NP9D6DUS', 'username': 'RAHUL BARLA', 'executable': 'C:\\Users\\RAHUL BARLA\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3187.0, 'min': 0.0, 'max': 3187.0}, 'cpu_freq_per_core': [{'current': 3187.0, 'min': 0.0, 'max': 3187.0}], 'disk': {'/': {'total': 152.45019149780273, 'used': 131.41580963134766}}, 'gpu': 'NVIDIA GeForce GTX 1650', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650', 'memory_total': 4294967296}], 'memory': {'total': 7.788383483886719}}
+2024-04-25 19:00:19,074 INFO    HandlerThread:23336 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-25 19:00:19,074 INFO    HandlerThread:23336 [system_monitor.py:probe():227] Publishing system info
+2024-04-25 19:00:19,074 INFO    HandlerThread:23336 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-25 19:00:19,074 DEBUG   SenderThread:23336 [sender.py:send():379] send: files
+2024-04-25 19:00:19,074 INFO    SenderThread:23336 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-25 19:00:19,631 INFO    wandb-upload_0:23336 [upload_job.py:push():131] Uploaded file C:\Users\RAHULB~1\AppData\Local\Temp\tmp39glbfqowandb\tysqhvox-wandb-metadata.json
+2024-04-25 19:00:19,852 INFO    Thread-16 :23336 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\RAHUL BARLA\Downloads\REFBUST_Review (2)\REFBUST_Review\wandb\run-20240425_190017-fwqfcbnw\files\wandb-metadata.json
+2024-04-25 19:00:20,589 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-25 19:00:20,589 DEBUG   SenderThread:23336 [sender.py:send_request():406] send_request: python_packages
+2024-04-25 19:00:20,589 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 19:00:20,589 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 19:00:20,589 DEBUG   SenderThread:23336 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 19:00:20,730 DEBUG   SenderThread:23336 [sender.py:send():379] send: telemetry
+2024-04-25 19:00:20,730 DEBUG   SenderThread:23336 [sender.py:send():379] send: config
+2024-04-25 19:00:20,730 DEBUG   SenderThread:23336 [sender.py:send():379] send: metric
+2024-04-25 19:00:20,730 DEBUG   SenderThread:23336 [sender.py:send():379] send: telemetry
+2024-04-25 19:00:20,730 DEBUG   SenderThread:23336 [sender.py:send():379] send: metric
+2024-04-25 19:00:20,730 WARNING SenderThread:23336 [sender.py:send_metric():1341] Seen metric with glob (shouldn't happen)
+2024-04-25 19:00:20,730 DEBUG   SenderThread:23336 [sender.py:send():379] send: telemetry
+2024-04-25 19:00:20,856 INFO    Thread-16 :23336 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\RAHUL BARLA\Downloads\REFBUST_Review (2)\REFBUST_Review\wandb\run-20240425_190017-fwqfcbnw\files\requirements.txt
+2024-04-25 19:00:22,761 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 19:00:27,880 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 19:00:30,946 ERROR   gpu       :23336 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-25 19:00:30,946 ERROR   gpu       :23336 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-25 19:00:30,946 ERROR   gpu       :23336 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-25 19:00:30,946 ERROR   gpu       :23336 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-25 19:00:30,946 ERROR   gpu       :23336 [interfaces.py:monitor():144] Failed to sample metric: Unknown Error
+2024-04-25 19:00:32,861 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 19:00:35,609 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 19:00:35,624 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 19:00:35,624 DEBUG   SenderThread:23336 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 19:00:38,827 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 19:00:43,849 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 19:00:48,887 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 19:00:50,049 INFO    Thread-16 :23336 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\RAHUL BARLA\Downloads\REFBUST_Review (2)\REFBUST_Review\wandb\run-20240425_190017-fwqfcbnw\files\config.yaml
+2024-04-25 19:00:50,615 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 19:00:50,615 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 19:00:50,615 DEBUG   SenderThread:23336 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 19:00:54,884 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 19:00:59,908 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 19:01:04,930 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 19:01:05,637 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 19:01:05,637 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 19:01:05,637 DEBUG   SenderThread:23336 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 19:01:09,986 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 19:01:15,012 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 19:01:19,063 DEBUG   SystemMonitor:23336 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-25 19:01:19,082 DEBUG   SenderThread:23336 [sender.py:send():379] send: stats
+2024-04-25 19:01:20,100 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 19:01:20,635 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 19:01:20,635 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 19:01:20,635 DEBUG   SenderThread:23336 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 19:01:25,909 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 19:01:30,934 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 19:01:35,641 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-25 19:01:35,657 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-25 19:01:35,657 DEBUG   SenderThread:23336 [sender.py:send_request():406] send_request: stop_status
+2024-04-25 19:01:36,913 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 19:01:41,936 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: status_report
+2024-04-25 19:01:46,962 DEBUG   HandlerThread:23336 [handler.py:handle_request():146] handle_request: status_report
